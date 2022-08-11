@@ -1,0 +1,59 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+.uni-padding{
+  padding: 0.7% 8% !important;
+}
+
+.nav-link{
+  font-size: 20px !important;
+}
+
+.row{
+  margin: 0 !important;
+}
+
+p{
+  margin: 0 !important;
+}
+
+.home-container{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-des{
+  padding: 20px 60px
+}
+
+.addmemory{
+  margin-top: 140px !important;
+}
+
+.memorycard-des{
+  display: inline-block;
+  margin: 30px 45px;
+}
+
+.about-container{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media only screen and (max-width : 480px){
+  .addmemory{
+    margin: 30px  !important;
+  }
+
+  .addmemory{
+    margin-top: 100px !important;
+  }
+
+  .form-des{
+    padding: 20px 30px;
+  }
+}
